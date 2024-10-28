@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#picture1:hover img{
+    transform: scale(1.1); 
+     transition: transform .2s;  
+
+}
+#picture1{
+    overflow: hidden;
+   position: relative;
+}
+#hero_section img{
+    width: 800px;
+    height: 500px;
+
+}
+.unique_text {
+    font-size: 36px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    color: warning;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 
+                 3px 3px 5px rgba(120, 115, 245, 0.5); /* Adds multiple shadows */
+                 text-align: center;
+  }
